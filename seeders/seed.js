@@ -14,8 +14,8 @@ let workoutSeed = [
         type: "resistance",
         name: "Bicep Curl",
         duration: 20,
-        weight: 100,
-        reps: 10,
+        weight: 20,
+        reps: 8,
         sets: 4
       }
     ]
@@ -25,10 +25,10 @@ let workoutSeed = [
     exercises: [
       {
         type: "resistance",
-        name: "Lateral Pull",
+        name: "Lateral Pull Down",
         duration: 20,
-        weight: 300,
-        reps: 10,
+        weight: 90,
+        reps: 12,
         sets: 4
       }
     ]
@@ -38,9 +38,9 @@ let workoutSeed = [
     exercises: [
       {
         type: "resistance",
-        name: "Push Press",
+        name: "Squat",
         duration: 25,
-        weight: 185,
+        weight: 120,
         reps: 8,
         sets: 4
       }
@@ -53,7 +53,7 @@ let workoutSeed = [
         type: "cardio",
         name: "Running",
         duration: 25,
-        distance: 4
+        distance: 1
       }
     ]
   },
@@ -64,7 +64,7 @@ let workoutSeed = [
         type: "resistance",
         name: "Bench Press",
         duration: 20,
-        weight: 285,
+        weight: 80,
         reps: 10,
         sets: 4
       }
@@ -75,9 +75,9 @@ let workoutSeed = [
     exercises: [
       {
         type: "resistance",
-        name: "Bench Press",
+        name: "Incline Bench Press",
         duration: 20,
-        weight: 300,
+        weight: 60,
         reps: 10,
         sets: 4
       }
@@ -88,11 +88,11 @@ let workoutSeed = [
     exercises: [
       {
         type: "resistance",
-        name: "Quad Press",
+        name: "Deadlift",
         duration: 30,
-        weight: 300,
-        reps: 10,
-        sets: 4
+        weight: 140,
+        reps: 3,
+        sets: 5
       }
     ]
   },
@@ -101,9 +101,9 @@ let workoutSeed = [
     exercises: [
       {
         type: "resistance",
-        name: "Bench Press",
+        name: "Barbell Rows",
         duration: 20,
-        weight: 300,
+        weight: 60,
         reps: 10,
         sets: 4
       }
@@ -116,7 +116,7 @@ let workoutSeed = [
         type: "resistance",
         name: "Military Press",
         duration: 20,
-        weight: 300,
+        weight: 50,
         reps: 10,
         sets: 4
       }
