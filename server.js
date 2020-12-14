@@ -16,6 +16,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
+// Mongoose models
+// =============================================================
+const db = require("./models");
+
 // Routes
 // =============================================================
 require("./routes/api-routes.js")(app);
