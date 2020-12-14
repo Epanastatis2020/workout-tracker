@@ -27,8 +27,15 @@ require("./routes/html-routes.js")(app);
 
 // MongoDB connection
 // =============================================================
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout"
-mongoose.connect(MONGODB_URI)
+mongoose.connect(
+  process.env.MONGODB_URI || 'mongodb://localhost/workout-tracker',
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false
+  }
+);
 
 // Start the server
 // =============================================================
