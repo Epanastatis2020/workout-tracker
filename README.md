@@ -53,6 +53,10 @@ This project uses the MIT license.
 
 ## Images
 
+![landing_page](https://user-images.githubusercontent.com/65388616/102053021-2f26da00-3e3b-11eb-9de8-1adbf64e7f92.PNG)
+![dashboard](https://user-images.githubusercontent.com/65388616/102053014-2d5d1680-3e3b-11eb-98d6-2c0778cd4607.PNG)
+![cardio](https://user-images.githubusercontent.com/65388616/102053023-2fbf7080-3e3b-11eb-941a-9c449785f178.PNG)
+
 ## Contact
 
 Github: [Epanastatis2020](https://github.com/Epanastatis2020)  
